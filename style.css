@@ -1,0 +1,510 @@
+@font-face {
+  font-family: 'KonexFonts';
+  src:  url('fonts/KonexFonts.eot?syaona');
+  src:  url('fonts/KonexFonts.eot?syaona#iefix') format('embedded-opentype'),
+    url('fonts/KonexFonts.ttf?syaona') format('truetype'),
+    url('fonts/KonexFonts.woff?syaona') format('woff'),
+    url('fonts/KonexFonts.svg?syaona#KonexFonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="konex_"], [class*=" konex_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'KonexFonts' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.konex_price_check:before {
+  content: "\e9a0";
+}
+.konex_account_tree:before {
+  content: "\e900";
+}
+.konex_acute:before {
+  content: "\e901";
+}
+.konex_add:before {
+  content: "\e902";
+}
+.konex_add_circle:before {
+  content: "\e903";
+}
+.konex_admin:before {
+  content: "\e904";
+}
+.konex_apartment:before {
+  content: "\e905";
+}
+.konex_app_registration:before {
+  content: "\e906";
+}
+.konex_archive:before {
+  content: "\e907";
+}
+.konex_arrow_downward:before {
+  content: "\e908";
+}
+.konex_arrow_drop_down_1:before {
+  content: "\e909";
+}
+.konex_arrow_drop_up:before {
+  content: "\e90a";
+}
+.konex_arrow_upward:before {
+  content: "\e90b";
+}
+.konex_atr:before {
+  content: "\e90c";
+}
+.konex_badging:before {
+  content: "\e90d";
+}
+.konex_barcode_scanner:before {
+  content: "\e90e";
+}
+.konex_book_online:before {
+  content: "\e90f";
+}
+.konex_box_add:before {
+  content: "\e910";
+}
+.konex_briefcase:before {
+  content: "\e911";
+}
+.konex_browse_activity:before {
+  content: "\e912";
+}
+.konex_build:before {
+  content: "\e913";
+}
+.konex_cached:before {
+  content: "\e914";
+}
+.konex_calendar_month:before {
+  content: "\e915";
+}
+.konex_captive_portal:before {
+  content: "\e916";
+}
+.konex_cases:before {
+  content: "\e917";
+}
+.konex_casino:before {
+  content: "\e918";
+}
+.konex_category:before {
+  content: "\e919";
+}
+.konex_check:before {
+  content: "\e91a";
+}
+.konex_checklist:before {
+  content: "\e91b";
+}
+.konex_chevron_left:before {
+  content: "\e91c";
+}
+.konex_chevron_right:before {
+  content: "\e91d";
+}
+.konex_clean:before {
+  content: "\e91e";
+}
+.konex_close:before {
+  content: "\e91f";
+}
+.konex_close_circle:before {
+  content: "\e920";
+}
+.konex_cloud_upload:before {
+  content: "\e921";
+}
+.konex_confirmation_number:before {
+  content: "\e922";
+}
+.konex_content_copy:before {
+  content: "\e923";
+}
+.konex_contract:before {
+  content: "\e924";
+}
+.konex_contract_delete:before {
+  content: "\e925";
+}
+.konex_csv:before {
+  content: "\e926";
+}
+.konex_currency_exchange:before {
+  content: "\e927";
+}
+.konex_dashboard:before {
+  content: "\e928";
+}
+.konex_data_object:before {
+  content: "\e929";
+}
+.konex_delete:before {
+  content: "\e92a";
+}
+.konex_devices:before {
+  content: "\e92b";
+}
+.konex_difference:before {
+  content: "\e92c";
+}
+.konex_done_all:before {
+  content: "\e92d";
+}
+.konex_download:before {
+  content: "\e92e";
+}
+.konex_drag:before {
+  content: "\e92f";
+}
+.konex_edit:before {
+  content: "\e930";
+}
+.konex_enterprise:before {
+  content: "\e931";
+}
+.konex_eraser:before {
+  content: "\e932";
+}
+.konex_excel:before {
+  content: "\e933";
+}
+.konex_expand_circle:before {
+  content: "\e934";
+}
+.konex_expand_less:before {
+  content: "\e935";
+}
+.konex_expand_more:before {
+  content: "\e936";
+}
+.konex_export:before {
+  content: "\e937";
+}
+.konex_filter_alt:before {
+  content: "\e938";
+}
+.konex_fingerprint:before {
+  content: "\e939";
+}
+.konex_fork_left:before {
+  content: "\e93a";
+}
+.konex_forum:before {
+  content: "\e93b";
+}
+.konex_forward:before {
+  content: "\e93c";
+}
+.konex_forward_to_inbox:before {
+  content: "\e93d";
+}
+.konex_frame_inspect:before {
+  content: "\e93e";
+}
+.konex_gavel:before {
+  content: "\e93f";
+}
+.konex_group:before {
+  content: "\e940";
+}
+.konex_handshake:before {
+  content: "\e941";
+}
+.konex_help:before {
+  content: "\e942";
+}
+.konex_hide:before {
+  content: "\e943";
+}
+.konex_history_edu:before {
+  content: "\e944";
+}
+.konex_home:before {
+  content: "\e945";
+}
+.konex_Identification:before {
+  content: "\e946";
+}
+.konex_info:before {
+  content: "\e947";
+}
+.konex_inventory:before {
+  content: "\e948";
+}
+.konex_inventory_1:before {
+  content: "\e949";
+}
+.konex_keyboard_double_arrow_left:before {
+  content: "\e94a";
+}
+.konex_keyboard_double_arrow_right:before {
+  content: "\e94b";
+}
+.konex_lab_profile:before {
+  content: "\e94c";
+}
+.konex_library_book:before {
+  content: "\e94d";
+}
+.konex_linked_services:before {
+  content: "\e94e";
+}
+.konex_lnote:before {
+  content: "\e94f";
+}
+.konex_local_activity_1:before {
+  content: "\e950";
+}
+.konex_local_atm:before {
+  content: "\e951";
+}
+.konex_local_shipping:before {
+  content: "\e952";
+}
+.konex_location_on:before {
+  content: "\e953";
+}
+.konex_logout:before {
+  content: "\e954";
+}
+.konex_mail:before {
+  content: "\e955";
+}
+.konex_manage_accounts:before {
+  content: "\e956";
+}
+.konex_manage_history:before {
+  content: "\e957";
+}
+.konex_manufacturing:before {
+  content: "\e958";
+}
+.konex_menu:before {
+  content: "\e959";
+}
+.konex_military_tech:before {
+  content: "\e95a";
+}
+.konex_monitoring:before {
+  content: "\e95b";
+}
+.konex_more_down:before {
+  content: "\e95c";
+}
+.konex_more_up:before {
+  content: "\e95d";
+}
+.konex_more_vert:before {
+  content: "\e95e";
+}
+.konex_move_down:before {
+  content: "\e95f";
+}
+.konex_move_inbox:before {
+  content: "\e960";
+}
+.konex_newspaper:before {
+  content: "\e961";
+}
+.konex_notifications:before {
+  content: "\e962";
+}
+.konex_notifications_active:before {
+  content: "\e963";
+}
+.konex_open_in_new_fill:before {
+  content: "\e964";
+}
+.konex_order:before {
+  content: "\e965";
+}
+.konex_orders:before {
+  content: "\e966";
+}
+.konex_other_admission:before {
+  content: "\e967";
+}
+.konex_package:before {
+  content: "\e968";
+}
+.konex_page:before {
+  content: "\e969";
+}
+.konex_paid:before {
+  content: "\e96a";
+}
+.konex_palette:before {
+  content: "\e96b";
+}
+.konex_payment_prizes:before {
+  content: "\e96c";
+}
+.konex_payments:before {
+  content: "\e96d";
+}
+.konex_pdf:before {
+  content: "\e96e";
+}
+.konex_pending_actions:before {
+  content: "\e96f";
+}
+.konex_person:before {
+  content: "\e970";
+}
+.konex_pie_chart:before {
+  content: "\e971";
+}
+.konex_point_of_sale:before {
+  content: "\e972";
+}
+.konex_preview:before {
+  content: "\e973";
+}
+.konex_price_change:before {
+  content: "\e974";
+}
+.konex_price_check1:before {
+  content: "\e975";
+}
+.konex_print:before {
+  content: "\e976";
+}
+.konex_process_parameterization:before {
+  content: "\e977";
+}
+.konex_published:before {
+  content: "\e978";
+}
+.konex_receipt:before {
+  content: "\e979";
+}
+.konex_refresh:before {
+  content: "\e97a";
+}
+.konex_remove:before {
+  content: "\e97b";
+}
+.konex_reply:before {
+  content: "\e97c";
+}
+.konex_request_page:before {
+  content: "\e97d";
+}
+.konex_request_quote:before {
+  content: "\e97e";
+}
+.konex_rule_settings:before {
+  content: "\e97f";
+}
+.konex_schedule:before {
+  content: "\e980";
+}
+.konex_schedule_send:before {
+  content: "\e981";
+}
+.konex_search:before {
+  content: "\e982";
+}
+.konex_send:before {
+  content: "\e983";
+}
+.konex_settings:before {
+  content: "\e984";
+}
+.konex_share:before {
+  content: "\e985";
+}
+.konex_shield_lock:before {
+  content: "\e986";
+}
+.konex_shopping_cart:before {
+  content: "\e987";
+}
+.konex_signature:before {
+  content: "\e988";
+}
+.konex_subject:before {
+  content: "\e989";
+}
+.konex_supervisor_account:before {
+  content: "\e98a";
+}
+.konex_support_agent:before {
+  content: "\e98b";
+}
+.konex_swap_vert:before {
+  content: "\e98c";
+}
+.konex_sync_alt:before {
+  content: "\e98d";
+}
+.konex_task_alt:before {
+  content: "\e98e";
+}
+.konex_tenancy:before {
+  content: "\e98f";
+}
+.konex_trophy:before {
+  content: "\e990";
+}
+.konex_tv_options_input_settings:before {
+  content: "\e991";
+}
+.konex_undo:before {
+  content: "\e992";
+}
+.konex_universal_currency:before {
+  content: "\e993";
+}
+.konex_universal_currency-1:before {
+  content: "\e994";
+}
+.konex_upload:before {
+  content: "\e995";
+}
+.konex_usb:before {
+  content: "\e996";
+}
+.konex_view_headline:before {
+  content: "\e997";
+}
+.konex_visibility:before {
+  content: "\e998";
+}
+.konex_visibility_off:before {
+  content: "\e999";
+}
+.konex_warning:before {
+  content: "\e99a";
+}
+.konex_warning_2:before {
+  content: "\e99b";
+}
+.konex_wifi:before {
+  content: "\e99c";
+}
+.konex_work_history:before {
+  content: "\e99d";
+}
+.konex_workspace_premium_black:before {
+  content: "\e99e";
+}
+.konex_zoom_in:before {
+  content: "\e99f";
+}
